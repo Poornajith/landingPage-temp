@@ -1,0 +1,25 @@
+.slider-div-1{
+    background-image: url("./assets/images/business1_c.png");
+}
+.slider-div-2{
+    background-image: url("./assets/images/business2_c.png");
+}
+.slider-div-3{
+    background-image: url("./assets/images/business3_c.png");
+}
+.slider-div-4{
+    background-image: url("./assets/images/business4_c.png");
+}
+.product-main-img{
+    height: 50vh;
+    background-position: center center;
+}
+@media screen and (min-width: 700px) {
+    .slider{
+        height: 60vh;
+        width: auto;
+    }
+    .slider-div{
+        height: 60vh;
+    }
+}
