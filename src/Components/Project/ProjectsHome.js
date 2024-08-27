@@ -4,6 +4,7 @@ import Slider from "../Slider";
 import { getLabelText } from '../MultipleLanguageSheets'
 import {useNavigate} from "react-router-dom";
 import HandleNavigation from "../HandleNavigation";
+import Footer from "../Footer";
 export default function ProjectsHome() {
     let templatetype = 'project'
     const navigate = useNavigate()
@@ -24,6 +25,7 @@ export default function ProjectsHome() {
                 </Button>
 
             </Container>
+            <Footer></Footer>
         </div>
     )
 }

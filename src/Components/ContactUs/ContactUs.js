@@ -3,6 +3,7 @@ import {Button, Col, Container, Row} from "react-bootstrap";
 import Form from 'react-bootstrap/Form';
 import ProductCard from "../Product/ProductCard";
 import Slider from "../Slider";
+import Footer from "../Footer";
 
 export default function ContactUs() {
     return (
@@ -67,6 +68,7 @@ export default function ContactUs() {
                         </Col>
                     </Row>
                 </Container>
+                <Footer></Footer>
             </div>
         </div>
     )

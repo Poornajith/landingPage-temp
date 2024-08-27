@@ -2,6 +2,7 @@ import NavBar from "../NavBar";
 import {Container} from "react-bootstrap";
 import PricingPlans from "../PricingPlans/PricingPlans";
 import project_mng from '../../assets/images/projectmng.png'
+import Footer from "../Footer";
 export default function Product() {
     return(
         <div>
@@ -42,6 +43,7 @@ export default function Product() {
                     <PricingPlans></PricingPlans>
                 </div>
             </Container>
+            <Footer></Footer>
         </div>
     )
 }

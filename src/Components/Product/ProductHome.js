@@ -2,10 +2,11 @@ import { Container } from "react-bootstrap";
 import ProductCard from "./ProductCard";
 import NavBar from "../NavBar";
 import Slider from "../Slider";
-import ProductCard_HRM from "./ProductCard_HRM";
-import ProductCard_CHM from "./ProductCard_CHM";
-import ProductCard_IBM from "./ProductCard_IBM";
+import ProductCardHRM from "./ProductCardHRM";
+import ProductCardCHM from "./ProductCardCHM";
+import ProductCardIBM from "./ProductCardIBM";
 import { getLabelText } from '../MultipleLanguageSheets'
+import Footer from "../Footer";
 
 export default function ProductHome() {
     let templatetype = 'product'
@@ -23,15 +24,16 @@ export default function ProductHome() {
             </div>
             <Container>
                 <div className="product-grid d-flex flex-wrap">
-                    <ProductCard_HRM></ProductCard_HRM>
-                    <ProductCard_CHM></ProductCard_CHM>
-                    <ProductCard_IBM></ProductCard_IBM>
+                    <ProductCardHRM></ProductCardHRM>
+                    <ProductCardCHM></ProductCardCHM>
+                    <ProductCardIBM></ProductCardIBM>
                     <ProductCard></ProductCard>
-                    <ProductCard_CHM></ProductCard_CHM>
-                    <ProductCard_IBM></ProductCard_IBM>
+                    <ProductCardCHM></ProductCardCHM>
+                    <ProductCardIBM></ProductCardIBM>
                     {/* <ProductCard></ProductCard> */}
                 </div>
             </Container>
+            <Footer></Footer>
         </div>
     )
 }

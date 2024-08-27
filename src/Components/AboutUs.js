@@ -3,13 +3,14 @@ import {Button, Container} from "react-bootstrap";
 import "../App.css";
 import Slider from "./Slider";
 import our_team from '../assets/images/business2.png'
+import Footer from "./Footer";
 
 export default function AboutUs() {
     return (
         <div>
             <NavBar></NavBar>
             <Slider></Slider>
-            <div className="slider m-5 ps-5">
+            <div className="m-5 ps-5">
                 <Container>
                     <h1>Simply Your business with our help</h1>
                     <p>We specialize in crafting software solutions tailored to your exact needs.
@@ -23,6 +24,7 @@ export default function AboutUs() {
 
                 </Container>
             </div>
+            <Footer></Footer>
 
         </div>
     )
